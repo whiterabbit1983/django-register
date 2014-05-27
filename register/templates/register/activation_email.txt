@@ -1,0 +1,8 @@
+Hello,
+
+To activate your account open the following link {% url "register:activate_user" %}?activation_key={{ activation_key }}.
+
+Or input the key {{ activation_key }} into the form which is available by this link {% url "register:activate_user" %}
+
+Best Regards,
+Our site's team.

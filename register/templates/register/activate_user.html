@@ -1,0 +1,14 @@
+{% if user_email %}
+{% if not form.errors %}
+<h2>
+    You have been registered successfully. Message with activation code was sent to {{ user_email }}
+</h2>
+{% endif %}
+<form action="{% url 'register:activate_user' %}" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Activate">
+</form>
+{% else %}
+<h2>Wrong user data</h2>
+{% endif %}
