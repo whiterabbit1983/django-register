@@ -9,11 +9,11 @@ Quick start
 
 1. Add "register" to your INSTALLED_APPS settings:
    
-   INSTALLED_APPS = (
-       ...
-       "register",
-       ...
-   )
+      INSTALLED_APPS = (
+          ...
+          "register",
+          ...
+      )
 
 2. Run `python manage.py syncdb` to create new user models.
    Note, that you have to run syncdb first time after you included register to INSTALLED_APPS,
