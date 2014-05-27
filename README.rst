@@ -24,12 +24,10 @@ Quick start
 4. Optionally add REGISTER_ACTIVATION_SUBJECT and/or REGISTER_FROM_EMAIL to your settings.py.
    REGISTER_ACTIVATION_SUBJECT sets a subject of a confirmation email
     
-   Example:
-       REGISTER_ACTIVATION_SUBJECT = "Activation code"
+   Example: REGISTER_ACTIVATION_SUBJECT = "Activation code"
 
    REGISTER_FROM_EMAIL sets a "From" field of a confirmation email 
 
-   Example:
-       REGISTER_FROM_EMAIL = "noreply@example.com"
+   Example: REGISTER_FROM_EMAIL = "noreply@example.com"
 
 5. If you want to customise templates, see examples in "register/templates" directory.
