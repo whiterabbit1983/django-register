@@ -8,6 +8,7 @@ Quick start
 -----------
 
 1. Add "register" to your INSTALLED_APPS settings:
+   
    INSTALLED_APPS = (
        ...
        "register",
