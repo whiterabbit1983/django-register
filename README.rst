@@ -20,7 +20,8 @@ Quick start
    because this application uses custom User model. Read Django manual for details.
 
 3. Include the register URLconf in your project urls.py like this:
-   url(r'^register/', include("register.urls"))
+   
+      url(r'^register/', include("register.urls"))
 
 4. Optionally add REGISTER_ACTIVATION_SUBJECT and/or REGISTER_FROM_EMAIL to your settings.py.
    REGISTER_ACTIVATION_SUBJECT sets a subject of a confirmation email
