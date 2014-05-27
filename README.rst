@@ -2,7 +2,7 @@
 Register
 ========
 
-Register is a Django application to register new users.
+Register is a Django application to register new users. Requires Django 1.6.x and Python 3.3+
 
 Quick start
 -----------
